@@ -9,6 +9,7 @@ int main()
     cin >> n;
     vector<string> process(n), gantt;
     vector<int> brustTime(n), rBrustTime(n), arrivalTime(n), CT(n), TAT(n), WT(n);
+    // rBrustTime = remaining burst time
 
     for (int i = 0; i < n; i++)
     {
