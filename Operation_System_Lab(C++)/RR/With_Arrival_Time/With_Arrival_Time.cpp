@@ -44,6 +44,7 @@ int main()
                 if (arrivalTime[i] == currentTime && !inQueue[i]) {
                     Q.push(i);
                     inQueue[i] = true;
+                    gantt.push_back("Idle");
                 }
             }
             continue;

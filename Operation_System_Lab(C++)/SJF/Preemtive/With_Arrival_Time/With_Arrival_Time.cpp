@@ -29,7 +29,7 @@ int main()
     // for (auto x : rBrustTime)
     //     cout << x << " ";
     // cout << endl;
-
+    
     int completed = 0, currentTime = 0;
     while (completed < n)
     {
